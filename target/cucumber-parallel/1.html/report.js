@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 20833261022,
+  "duration": 21534003587,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,7 +48,7 @@ formatter.match({
   "location": "Login_steps.launchTheApp()"
 });
 formatter.result({
-  "duration": 908572607,
+  "duration": 942325490,
   "status": "passed"
 });
 formatter.match({
@@ -61,29 +61,29 @@ formatter.match({
   "location": "Login_steps.iClickOn(String)"
 });
 formatter.result({
-  "duration": 740175209,
+  "duration": 699311708,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_steps.asAUserIAmFillingTheRegistrationForm()"
 });
 formatter.result({
-  "duration": 8006258119,
+  "duration": 8319358511,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_steps.iCheckUserIsLoggedInTheApp()"
 });
 formatter.result({
-  "duration": 15043730737,
+  "duration": 3651227912,
   "status": "passed"
 });
 formatter.after({
-  "duration": 373740798,
+  "duration": 367653652,
   "status": "passed"
 });
 formatter.before({
-  "duration": 20557737743,
+  "duration": 19877413085,
   "status": "passed"
 });
 formatter.scenario({
@@ -124,7 +124,7 @@ formatter.match({
   "location": "Login_steps.launchTheApp()"
 });
 formatter.result({
-  "duration": 695128419,
+  "duration": 704954198,
   "status": "passed"
 });
 formatter.match({
@@ -137,25 +137,25 @@ formatter.match({
   "location": "Login_steps.iClickOn(String)"
 });
 formatter.result({
-  "duration": 702060702,
+  "duration": 671899634,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_steps.logInAsExistingUser()"
 });
 formatter.result({
-  "duration": 16637879683,
+  "duration": 16705907835,
   "status": "passed"
 });
 formatter.match({
   "location": "Login_steps.iCheckUserIsLoggedInTheApp()"
 });
 formatter.result({
-  "duration": 2372126329,
+  "duration": 2304851486,
   "status": "passed"
 });
 formatter.after({
-  "duration": 364892697,
+  "duration": 352523373,
   "status": "passed"
 });
 });

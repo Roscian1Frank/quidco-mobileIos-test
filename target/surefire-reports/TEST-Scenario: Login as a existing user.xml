@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Scenario: Login as a existing user" time="87.298" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Scenario: Login as a existing user" time="76.193" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -66,10 +66,10 @@
   <testcase name="And I click on &quot;Join Us&quot;" classname="Scenario: Create a user account" time="0"/>
   <testcase name="When As a user I am filling the registration form" classname="Scenario: Create a user account" time="0"/>
   <testcase name="Then I check user is logged in the app" classname="Scenario: Create a user account" time="0"/>
-  <testcase name="Scenario: Create a user account" classname="Scenario: Create a user account" time="0.375"/>
+  <testcase name="Scenario: Create a user account" classname="Scenario: Create a user account" time="0.368"/>
   <testcase name="Given launch the app" classname="Scenario: Login as a existing user" time="0"/>
   <testcase name="And I click on &quot;Sign In&quot;" classname="Scenario: Login as a existing user" time="0"/>
-  <testcase name="When Log in as existing user" classname="Scenario: Login as a existing user" time="0"/>
+  <testcase name="When Log in as existing user" classname="Scenario: Login as a existing user" time="0.001"/>
   <testcase name="Then I check user is logged in the app" classname="Scenario: Login as a existing user" time="0"/>
-  <testcase name="Scenario: Login as a existing user" classname="Scenario: Login as a existing user" time="0.366"/>
+  <testcase name="Scenario: Login as a existing user" classname="Scenario: Login as a existing user" time="0.354"/>
 </testsuite>
