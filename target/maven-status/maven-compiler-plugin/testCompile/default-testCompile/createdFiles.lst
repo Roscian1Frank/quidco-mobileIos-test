@@ -1,0 +1,5 @@
+com/ios/appiumtest/steps/AppTestBase.class
+com/ios/appiumtest/steps/Login_steps.class
+Parallel01IT.class
+com/ios/appiumtest/helpers/CommonAction.class
+com/ios/appiumtest/test/RunTest.class
