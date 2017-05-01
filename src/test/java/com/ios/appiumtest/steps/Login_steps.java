@@ -1,5 +1,6 @@
 package com.ios.appiumtest.steps;
 
+import com.github.javafaker.Faker;
 import com.ios.appiumtest.helpers.CommonAction;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -24,14 +25,16 @@ public class Login_steps extends CommonAction {
 
     @When("^As a user I am filling the registration form$")
     public void asAUserIAmFillingTheRegistrationForm() throws Throwable {
-        driver.findElementByName("First Name").sendKeys("TestUser");
-        driver.findElementByName("Last Name").sendKeys("TestUser");
-        driver.findElementByName("Email Address").sendKeys("TestUser1@test.com");
+        Faker faker = new Faker();
+        String firstName = faker.name().firstName();
+        String lastName = faker.name().lastName();
+        String email = faker.internet().emailAddress();
+        driver.findElementByName("First Name").sendKeys(firstName);
+        driver.findElementByName("Last Name").sendKeys(lastName);
+        driver.findElementByName("Email Address").sendKeys(email);
         driver.findElementByName("Password").sendKeys("Pa55word");
         driver.findElementByName("return").click();
         driver.findElementByName("Join Us").click();
-        //wait.until(ExpectedConditions.presenceOfElementLocated(By.name("Join Us")));
-        //wait.until(ExpectedConditions.presenceOfElementLocated(By.name("Search for retailers")));
     }
 
     @Then("^I check user is logged in the app$")
