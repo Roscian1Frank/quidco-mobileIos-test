@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/Quidco.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/AirshipKit.framework/SC_Info/AirshipKit.sinf</string>
+		<string>Frameworks/Analytics.framework/SC_Info/Analytics.sinf</string>
+		<string>Frameworks/Bolts.framework/SC_Info/Bolts.sinf</string>
+		<string>Frameworks/FBSDKCoreKit.framework/SC_Info/FBSDKCoreKit.sinf</string>
+		<string>Frameworks/FBSDKLoginKit.framework/SC_Info/FBSDKLoginKit.sinf</string>
+		<string>Frameworks/FacebookCore.framework/SC_Info/FacebookCore.sinf</string>
+		<string>Frameworks/FacebookLogin.framework/SC_Info/FacebookLogin.sinf</string>
+		<string>Frameworks/KeychainAccess.framework/SC_Info/KeychainAccess.sinf</string>
+		<string>Frameworks/MSMAPIKit.framework/SC_Info/MSMAPIKit.sinf</string>
+		<string>Frameworks/MSMAnalytics.framework/SC_Info/MSMAnalytics.sinf</string>
+		<string>Frameworks/MSMData.framework/SC_Info/MSMData.sinf</string>
+		<string>Frameworks/MSMFoundation.framework/SC_Info/MSMFoundation.sinf</string>
+		<string>Frameworks/MSMUIKit.framework/SC_Info/MSMUIKit.sinf</string>
+		<string>Frameworks/PayPalMobileSDK.framework/SC_Info/PayPalMobileSDK.sinf</string>
+		<string>Frameworks/RxBlocking.framework/SC_Info/RxBlocking.sinf</string>
+		<string>Frameworks/RxCocoa.framework/SC_Info/RxCocoa.sinf</string>
+		<string>Frameworks/RxSwift.framework/SC_Info/RxSwift.sinf</string>
+		<string>SC_Info/Quidco.sinf</string>
+	</array>
+</dict>
+</plist>

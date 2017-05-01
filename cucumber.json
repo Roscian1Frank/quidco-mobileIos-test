@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 26406058111,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.startApp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create a user account",
+        "description": "",
+        "id": "create-user-and-login-in-to-quidco-app;create-a-user-account",
+        "after": [
+          {
+            "result": {
+              "duration": 525534716,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.closeApp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104519019,
+              "error_message": "java.lang.NullPointerException\n\tat com.ios.appiumtest.steps.Login_steps.launchTheApp(Login_steps.java:15)\n\tat ✽.Given launch the app(LogIn.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "launch the app",
+            "match": {
+              "location": "Login_steps.launchTheApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click on \"Join Us\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Join Us",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_steps.iClickOn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "As a user I am filling the registration form",
+            "match": {
+              "location": "Login_steps.asAUserIAmFillingTheRegistrationForm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I check user is logged in the app",
+            "match": {
+              "location": "Login_steps.iCheckUserIsLoggedInTheApp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@joinUs"
+          }
+        ]
+      }
+    ],
+    "name": "Create user and login in to Quidco app",
+    "description": "",
+    "id": "create-user-and-login-in-to-quidco-app",
+    "keyword": "Feature",
+    "uri": "LogIn.feature"
+  }
+]
