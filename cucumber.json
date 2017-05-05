@@ -1,12 +1,12 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 26406058111,
+              "duration": 28738450516,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 4,
+        "line": 5,
         "name": "Create a user account",
         "description": "",
         "id": "create-user-and-login-in-to-quidco-app;create-a-user-account",
         "after": [
           {
             "result": {
-              "duration": 525534716,
+              "duration": 602242641,
               "status": "passed"
             },
             "match": {
@@ -34,11 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 104519019,
-              "error_message": "java.lang.NullPointerException\n\tat com.ios.appiumtest.steps.Login_steps.launchTheApp(Login_steps.java:15)\n\tat ✽.Given launch the app(LogIn.feature:5)\n",
-              "status": "failed"
+              "duration": 1846727036,
+              "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "launch the app",
             "match": {
               "location": "Login_steps.launchTheApp()"
@@ -47,9 +46,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 757274488,
+              "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click on \"Join Us\"",
             "match": {
               "arguments": [
@@ -64,9 +64,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9781654846,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "As a user I am filling the registration form",
             "match": {
               "location": "Login_steps.asAUserIAmFillingTheRegistrationForm()"
@@ -75,9 +76,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2927294122,
+              "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "I check user is logged in the app",
             "match": {
               "location": "Login_steps.iCheckUserIsLoggedInTheApp()"
@@ -87,8 +89,100 @@
         ],
         "tags": [
           {
-            "line": 3,
+            "line": 4,
             "name": "@joinUs"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27614283030,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.startApp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login as a existing user",
+        "description": "",
+        "id": "create-user-and-login-in-to-quidco-app;login-as-a-existing-user",
+        "after": [
+          {
+            "result": {
+              "duration": 606643580,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppTestBase.closeApp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1035604126,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "launch the app",
+            "match": {
+              "location": "Login_steps.launchTheApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 713642296,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on \"Sign In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign In",
+                  "offset": 12
+                }
+              ],
+              "location": "Login_steps.iClickOn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13598756556,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Log in as existing user",
+            "match": {
+              "location": "Login_steps.logInAsExistingUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3652122652,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I check user is logged in the app",
+            "match": {
+              "location": "Login_steps.iCheckUserIsLoggedInTheApp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@login"
           }
         ]
       }
@@ -97,6 +191,12 @@
     "description": "",
     "id": "create-user-and-login-in-to-quidco-app",
     "keyword": "Feature",
-    "uri": "LogIn.feature"
+    "uri": "LogIn.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginPage"
+      }
+    ]
   }
 ]

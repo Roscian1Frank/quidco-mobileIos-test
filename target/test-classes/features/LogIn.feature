@@ -1,3 +1,4 @@
+@LoginPage
 Feature: Create user and login in to Quidco app
 
   @joinUs

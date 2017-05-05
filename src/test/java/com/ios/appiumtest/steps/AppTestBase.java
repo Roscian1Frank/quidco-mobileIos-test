@@ -16,6 +16,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
@@ -43,12 +44,12 @@ public class AppTestBase extends CommonAction {
         capabilities.setCapability("xcodeSigningId", "Auto");
         capabilities.setCapability(IOSMobileCapabilityType.LAUNCH_TIMEOUT, 50000);
         capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "");
-        driver = new IOSDriver<IOSElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        driver = new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        //waitForElement();
+
     }
     @After
-    public void closeApp(Scenario scenario) throws IOException, URISyntaxException {
+    public void closeApp() throws IOException, URISyntaxException {
         driver.quit();
     }
 }
