@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features/",
         plugin = {"pretty","html:target/cucumber-html-report", "json:cucumber.json"},
         glue = {"com.ios.appiumtest.steps"},
-        tags = {"@joinUs"})
+        tags = {"@LoginPage"})
 public class RunTest {
 
 }
